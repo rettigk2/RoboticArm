@@ -23,8 +23,8 @@ PROGRAM FUNCTIONS:
  * Single Finger Extended
 ________________________________________________________________________________________________________________________________________  
 Requires use of PWM Servo Motor Driver IIC Module https://www.amazon.com/dp/B07H9ZTWNC/ref=cm_sw_r_cp_api_glc_fabc_SZTN5ZM4QEHS9NZQFS9B
-As well as Jetson Nano 2GB
+As well as Jetson Nano https://www.nvidia.com/en-us/autonomous-machines/embedded-systems/jetson-nano/
 
-HandConfigurations.py is configured to initialize the I2C header and configure hand signals based on user input. This is planned to be changed to make use of the MyoBand to use electrical signals from an arm to control a robotic arm
+ConfigureHand.py is configured to initialize the I2C header and configure hand signals based on user input. This is planned to be changed to make use of the MyoBand to use electrical signals from an arm to control a robotic arm
 
-
+ConfigureSingleServo.py is used to move a single servo, right now the code prompts for an angle input between 0 to 180 on servos going from 0 to 15, might change later to instead prompt for the number servo, then the input wanted
