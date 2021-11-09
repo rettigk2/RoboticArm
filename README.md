@@ -1,4 +1,4 @@
-README for Junior Clinic - Robotic Arm - Finger and Arm Servo Control
+README for Rowan University - ECE Junior Clinic - Robotic Arm - Finger and Arm Servo Control
 
 Author: Kyle Rettig  
 Created: November 9, 2021
